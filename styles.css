@@ -1,0 +1,95 @@
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    color: #FEECE3;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0px;
+    background: conic-gradient(from 210deg, rgb(197, 187, 184) 0deg, rgb(197, 187, 184) 24deg, rgb(184, 181, 184) 24deg, rgb(184, 181, 184) 48deg, rgb(169, 175, 183) 48deg, rgb(169, 175, 183) 72deg, rgb(154, 168, 181) 72deg, rgb(154, 168, 181) 96deg, rgb(139, 161, 179) 96deg, rgb(139, 161, 179) 120deg, rgb(125, 152, 175) 120deg, rgb(125, 152, 175) 144deg, rgb(112, 144, 171) 144deg, rgb(112, 144, 171) 168deg, rgb(101, 135, 166) 168deg, rgb(101, 135, 166) 192deg, rgb(92, 126, 161) 192deg, rgb(92, 126, 161) 216deg, rgb(85, 117, 155) 216deg, rgb(85, 117, 155) 240deg, rgb(81, 108, 148) 240deg, rgb(81, 108, 148) 264deg, rgb(79, 99, 141) 264deg, rgb(79, 99, 141) 288deg, rgb(80, 90, 133) 288deg, rgb(80, 90, 133) 312deg, rgb(84, 83, 125) 312deg, rgb(84, 83, 125) 336deg, rgb(91, 75, 116) 336deg, rgb(91, 75, 116) 360deg);
+}
+
+h1 {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #D5ED9F;
+}
+
+.choices {
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    gap: 1.8rem;
+    margin-top: 8%;
+    flex-wrap: wrap;
+}
+
+.choice {
+    border-radius: 10px;
+}
+
+.button {
+    all: unset;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    height: 90px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: #41B3A2;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.choice:hover {
+    filter: drop-shadow(0px 0px 30px #f5ca55);
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    font-size: 20px;
+}
+
+.msg-box {
+    font-size: 20px;
+    text-align: center;
+}
+
+.msg {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    background-color: rgb(103, 65, 136);
+}
+
+.Reset {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.Reset:hover {
+    filter: drop-shadow(0px 0px 30px #f5ca55);
+}
+
+#reset {
+    font-size: 20px;
+    padding: 10px 14px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #ffd4d4;
+    color: #fff;
+    transition: background-color 0.3s;
+}
+
